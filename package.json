@@ -1,6 +1,6 @@
 {
   "name": "vue-v-clickoutside",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple click-outside directive for Vue.js",
   "main": "dist/clickoutside.min.js",
   "author": "zhangjialegh <zjl1195185765@outlook.com>",
