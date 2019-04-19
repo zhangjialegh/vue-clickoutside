@@ -1,16 +1,42 @@
-# vue-handle-outside
+# vue-v-clickoutside
 
 > A simple click-outside directive for Vue.js
 
-## Build Setup
+[![NPM](https://nodei.co/npm/vue-v-clickoutside.png?compact=true)](https://nodei.co/npm/vue-v-clickoutside/)
 
-``` bash
-# install dependencies
-yarn
+# Installation
+```
+npm i vue-v-clickoutside
 
-# serve with hot reload at localhost:8080
-yarn dev
+or
 
-# build for production with minification
-yarn build
+yarn add vue-v-clickoutside
+```
+# Usage
+
+
+
+```javascript
+
+/*全局引入*/
+
+import ClickOutSide from 'vue-v-clickoutside'
+Vue.directive('clickoutside', ClickOutSide)
+
+
+/*局部引入*/
+
+import ClickOutSide from 'vue-v-clickoutside'
+export default {
+  ...
+  directives: {
+    'clickoutside': ClickOutSide
+  }
+  ...
+}
+
+```
+
+
+
 
