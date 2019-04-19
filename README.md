@@ -15,16 +15,16 @@ yarn add vue-v-clickoutside
 # Usage
 
 
-
+## Import
 ```javascript
 
-/*全局引入*/
+/*global import*/
 
 import ClickOutSide from 'vue-v-clickoutside'
 Vue.directive('clickoutside', ClickOutSide)
 
 
-/*局部引入*/
+/*local import*/
 
 import ClickOutSide from 'vue-v-clickoutside'
 export default {
@@ -33,6 +33,26 @@ export default {
     'clickoutside': ClickOutSide
   }
   ...
+}
+
+```
+
+## Example
+```javascript
+
+<templete>
+  <div v-clickoutside="handleFunction"></div>
+</templete>
+
+...
+export default {
+...
+  methods: {
+    handleFunction() {
+      //  handler
+    }
+  }
+...
 }
 
 ```
