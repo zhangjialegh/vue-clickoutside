@@ -2,6 +2,7 @@
   "name": "vue-click-outside",
   "version": "1.0.0",
   "description": "A simple click-outside directive for Vue.js",
+  "main": "dist/clickoutside.min.js",
   "author": "zhangjialegh <zjl1195185765@outlook.com>",
   "bugs": {
     "url": "https://github.com/charliekassel/vuejs-datepicker/issues"
