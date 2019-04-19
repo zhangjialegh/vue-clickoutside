@@ -5,7 +5,11 @@
   "main": "dist/clickoutside.min.js",
   "author": "zhangjialegh <zjl1195185765@outlook.com>",
   "bugs": {
-    "url": "https://github.com/charliekassel/vuejs-datepicker/issues"
+    "url": "https://github.com/zhangjialegh/vue-clickoutside/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangjialegh/vue-clickoutside.git"
   },
   "private": false,
   "license": "MIT",
